@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بيالة | كوفي هاوس</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-badge"><span>ب</span></div>
+      <div class="logo-text">
+        <div class="display">بيالة</div>
+        <p>COFFEE HOUSE</p>
+      </div>
+    </div>
+    <nav class="menu-nav" id="catNav"></nav>
+    <button class="order-btn" id="cartOpenBtn">
+      طلبي <span class="order-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<div class="kilim-strip"></div>
+
+<section class="hero">
+  <div>
+    <div class="hero-eyebrow">قهوة مختصة · شاي · لحظات هادئة</div>
+    <h1>بيالة واحدة تكفي <span>لبداية يوم جميل</span></h1>
+    <p>نحمّص ونحضّر كل كوب بعناية، من اللاتيه الكلاسيكي إلى القهوة المختصة المفلترة، وتشكيلة شاي تناسب كل مزاج.</p>
+    <div class="hero-location">📍 الموصل، حي الحدباء — مقابل مستشفى البحثي الطبي</div>
+    <div class="hero-actions">
+      <a href="#menu" class="btn-solid">تصفح القائمة</a>
+      <a href="#footer-contact" class="btn-outline">موقعنا</a>
+    </div>
+  </div>
+  <div class="medallion">
+    <div class="diamond"><span>☕</span></div>
+  </div>
+</section>
+
+<div class="kilim-strip"></div>
+
+<main class="menu-wrap" id="menu"></main>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer">
+  <div class="drawer-head">
+    <h3>طلبك</h3>
+    <button class="close-btn" id="closeCartBtn">×</button>
+  </div>
+  <div class="drawer-body" id="cartBody"></div>
+  <div class="drawer-foot">
+    <div class="f-row"><span>عدد المشروبات</span><span id="sumCount">٠</span></div>
+    <div class="f-row total"><span>الإجمالي</span><span id="sumTotal">٠ د.ع</span></div>
+    <button class="confirm-btn" id="checkoutBtn">تأكيد الطلب</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<div class="kilim-strip"></div>
+
+<footer id="footer-contact">
+  <div class="display">بيالة</div>
+  <div>كوفي هاوس</div>
+  <div class="addr">
+    العراق — الموصل، حي الحدباء، مقابل مستشفى البحثي الطبي<br>
+    للطلب: 07xx xxx xxxx &nbsp;·&nbsp; يومياً ٧ ص – ١١ م
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
