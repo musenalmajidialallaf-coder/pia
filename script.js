@@ -174,14 +174,6 @@ document.getElementById('closeCartBtn').onclick = closeDrawer;
 overlay.onclick = closeDrawer;
 function closeDrawer(){ drawer.classList.remove('open'); overlay.classList.remove('open'); }
 
-document.getElementById('checkoutBtn').onclick = ()=>{
-  if(Object.keys(cart).length===0){ showToast('لم تختر شيئاً بعد'); return; }
-  showToast('تم استلام طلبك، بانتظارك على الطاولة ✓');
-  cart = {};
-  updateCartUI();
-  setTimeout(closeDrawer, 900);
-};
-
 const toastEl = document.getElementById('toast');
 let toastTimer;
 function showToast(msg){
