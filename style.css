@@ -15,15 +15,15 @@
   a{color:inherit; text-decoration:none;}
   button{font-family:inherit; cursor:pointer; border:none; background:none;}
 
-  /* ===== keffiyeh-style band (fishnet lattice, two brand colors only) ===== */
+  /* ===== keffiyeh-style band (authentic black & white lattice) ===== */
   .kufiya-strip{
     position:relative; z-index:1; height:36px;
-    background-color: var(--cream);
+    background-color:#ffffff;
     background-image:
-      repeating-linear-gradient(45deg, transparent 0 7px, var(--maroon) 7px 9px, transparent 9px 16px),
-      repeating-linear-gradient(-45deg, transparent 0 7px, var(--maroon) 7px 9px, transparent 9px 16px);
-    border-top:3px solid var(--maroon);
-    border-bottom:3px solid var(--maroon);
+      repeating-linear-gradient(45deg, transparent 0 7px, #000000 7px 9px, transparent 9px 16px),
+      repeating-linear-gradient(-45deg, transparent 0 7px, #000000 7px 9px, transparent 9px 16px);
+    border-top:3px solid #000000;
+    border-bottom:3px solid #000000;
   }
 
   /* ===== header ===== */
