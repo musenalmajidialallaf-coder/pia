@@ -1,5 +1,5 @@
 :root{
-    --cream:#FEECD6;   /* only color #1 */
+    --cream:#FFFFFF;   /* only color #1 */
     --maroon:#903427;  /* only color #2 */
   }
   *{margin:0; padding:0; box-sizing:border-box;}
@@ -29,7 +29,7 @@
   /* ===== header ===== */
   header{
     position:sticky; top:0; z-index:50;
-    background:rgba(254,236,214,0.94);
+    background:rgba(255,255,255,0.94);
     backdrop-filter:blur(8px);
     border-bottom:1px solid rgba(144,52,39,0.25);
   }
@@ -101,13 +101,13 @@
     transform:rotate(3deg);
   }
   .medallion::before{
-    content:""; position:absolute; inset:14px; border:1px dashed rgba(254,236,214,0.5); pointer-events:none;
+    content:""; position:absolute; inset:14px; border:1px dashed rgba(255,255,255,0.5); pointer-events:none;
   }
   .medallion .diamond{
-    width:60%; height:60%; background:rgba(254,236,214,0.12);
+    width:60%; height:60%; background:rgba(255,255,255,0.12);
     transform:rotate(45deg);
     display:flex; align-items:center; justify-content:center;
-    border:1px solid rgba(254,236,214,0.5);
+    border:1px solid rgba(255,255,255,0.5);
   }
   .medallion .diamond span{transform:rotate(-45deg); font-size:64px;}
 
@@ -142,7 +142,7 @@
   .item .photo img:not(.broken) + .placeholder{display:none;}
 
   .item .cat-tag{
-    position:absolute; top:10px; right:10px; background:rgba(254,236,214,0.92);
+    position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.92);
     color:var(--maroon); font-size:10.5px; font-weight:800; padding:4px 10px; border-radius:20px;
   }
 
@@ -158,7 +158,7 @@
     width:32px; height:32px; border-radius:50%; background:var(--cream); color:var(--maroon);
     font-size:18px; display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:.2s;
   }
-  .add-circle:hover{background:rgba(254,236,214,0.8); transform:scale(1.08);}
+  .add-circle:hover{background:rgba(255,255,255,0.8); transform:scale(1.08);}
   .add-circle.added{background:var(--maroon); color:var(--cream); outline:2px solid var(--cream);}
 
   /* ===== order-list drawer (for showing the cashier, not for submitting) ===== */
